@@ -16,18 +16,19 @@
   "repository": {
     "type": "git"
   },
-
   "engines": {
     "node": ">= 0.6.0",
     "npm": ">= 1.0.0"
   },
-
   "dependencies": {
     "ws": "latest"
+    "coffee-script": ">= 1.0.0"
   },
-
   "devDependencies": {
-    "coffee-script": "latest"
+    "coffee-script": ">= 1.0.0"
+  },
+  "scripts": {
+    "install": "./node-modules/coffee-script/bin/coffee -c --no-header script.coffee"
   },
   "main": "server.js"
 }
