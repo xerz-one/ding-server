@@ -21,7 +21,7 @@
     "npm": ">= 1.0.0"
   },
   "dependencies": {
-    "ws": "latest"
+    "ws": "latest",
     "coffee-script": ">= 1.0.0"
   },
   "devDependencies": {
