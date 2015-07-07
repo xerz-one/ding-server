@@ -6,7 +6,7 @@ http = require 'http'
 WebSocket = require 'ws'
 
 WebSocketServer = require('ws').Server
-wss = new WebSocketServer({ port: 80 });
+wss = new WebSocketServer({ port: process.env.OPENSHIFT_NODEJS_PORT || 80 });
 
 wss.on 'connection', (ws) ->
   ws.on 'message', (msg) ->
