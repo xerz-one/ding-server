@@ -1,8 +1,33 @@
 {
-    "name": "ding"
-    "version": "0.1"
-    "description": "Server backend for the Ding application"
-    "dependencies": {
-	"ws": "latest"
-    }
+  "name": "ding",
+  "version": "0.1.0",
+  "description": "Server backend for the Ding application",
+  "keywords": [
+    "Ding",
+    "Node.js",
+    "application"
+  ],
+  "author": {
+    "name": "Francisco Gómez",
+    "email": "espectalll123@kydara.com",
+    "url": "https://espectalll123.wordpress.com/"
+  },
+  "homepage": "https://www.github.com/espectalll123/ding-server",
+  "repository": {
+    "type": "git"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "ws": ">= 1.0.0"
+  },
+
+  "devDependencies": {
+    "coffee-script": "latest"
+  },
+  "main": "server.js"
 }
