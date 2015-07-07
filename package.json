@@ -28,7 +28,7 @@
     "coffee-script": ">= 1.0.0"
   },
   "scripts": {
-    "install": "./node-modules/coffee-script/bin/coffee -c --no-header script.coffee"
+    "install": "./node_modules/coffee-script/bin/coffee -c --no-header script.coffee"
   },
   "main": "server.js"
 }
