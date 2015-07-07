@@ -1,0 +1,8 @@
+{
+    "name": "ding"
+    "version": "0.1"
+    "description": "Server backend for the Ding application"
+    "dependencies": {
+	"ws": "latest"
+    }
+}
