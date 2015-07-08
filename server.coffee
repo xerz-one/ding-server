@@ -13,4 +13,5 @@ wss = new WebSocketServer({
 
 wss.on 'connection', (ws) ->
   ws.on 'message', (msg) ->
+    ws.send ws.upgradeReq.url
     ws.send msg
